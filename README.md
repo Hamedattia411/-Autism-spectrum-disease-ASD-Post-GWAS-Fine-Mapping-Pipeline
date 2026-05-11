@@ -1,6 +1,6 @@
 # -Autism-spectrum-disease-ASD-Post-GWAS-Fine-Mapping-Pipeline
 Project Overview
-This repository contains the complete analytical workflow for a post-GWAS fine-mapping study of Autism Spectrum Disorder (ASD). The pipeline integrates GWAS summary statistics harmonization, meta-analysis, linkage disequilibrium (LD) estimation, Bayesian fine-mapping using SuSiE, functional enrichment analyses, tissue-specific enrichment profiling, and publication-quality genomic visualizations.
+This repository contains the complete analytical workflow for a post-GWAS fine-mapping study of Autism Spectrum Disorder (ASD). The pipeline integrates GWAS summary statistics harmonization, meta-analysis, linkage disequilibrium (LD) estimation, Bayesian fine-mapping using SuSiE, functional enrichment analyses,and publication-quality genomic visualizations.
 # Data Sources
 •	Psychiatric Genomics Consortium (PGC) ASD GWAS (2015)
 •	iPSYCH-PGC ASD GWAS (2017)
@@ -12,8 +12,7 @@ This repository contains the complete analytical workflow for a post-GWAS fine-m
 4.	Linkage disequilibrium estimation
 5.	Bayesian fine-mapping with SuSiE
 6.	Functional enrichment analysis
-7.	Tissue-specific enrichment analysis
-8.	Publication-quality visualization
+7.	Publication-quality visualization
 # Software Requirements
 •	R >= 4.4.3
 •	PLINK v1.90b
@@ -23,9 +22,6 @@ This repository contains the complete analytical workflow for a post-GWAS fine-m
 •	enrichplot
 •	ggplot2
 •	ggrepel
-•	pheatmap
-•	circlize
-•	GOplot
 •	data.table
 •	dplyr
 
